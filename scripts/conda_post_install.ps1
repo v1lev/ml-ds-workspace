@@ -1,10 +1,10 @@
 # prepare update
-conda config --append channels conda-forge 
+conda config --add channels conda-forge 
 # https://github.com/conda/conda/issues/9367 
 # conda config --set channel_priority false 
 
 # update
-conda update conda -y 
+conda update conda -y
 conda update anaconda -y 
 conda update --all -y 
 
