@@ -19,5 +19,7 @@ conda install scikit-learn-intelex -y
 
 # extensions
 conda install watermark -y
-conda install nb_conda -y 
-conda install nb_black -y 
+conda install nb_conda -y
+conda install nb_black -y
+conda install jupyterlab-git -y
+conda install jupyterlab_execute_time -y
